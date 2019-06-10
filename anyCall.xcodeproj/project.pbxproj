@@ -14,6 +14,10 @@
 		9296118A22ABE5370045DCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9296118922ABE5370045DCA0 /* Assets.xcassets */; };
 		9296118D22ABE5370045DCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9296118B22ABE5370045DCA0 /* LaunchScreen.storyboard */; };
 		9296119022ABE5370045DCA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9296118F22ABE5370045DCA0 /* main.m */; };
+		9296119922ABE8200045DCA0 /* SJSSetingUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9296119722ABE8200045DCA0 /* SJSSetingUpViewController.m */; };
+		9296119A22ABE8200045DCA0 /* SJSSetingUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9296119822ABE8200045DCA0 /* SJSSetingUpViewController.xib */; };
+		9296119E22ABE83E0045DCA0 /* SJSCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9296119C22ABE83E0045DCA0 /* SJSCallViewController.m */; };
+		9296119F22ABE83E0045DCA0 /* SJSCallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9296119D22ABE83E0045DCA0 /* SJSCallViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,12 @@
 		9296118C22ABE5370045DCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9296118E22ABE5370045DCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9296118F22ABE5370045DCA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9296119622ABE8200045DCA0 /* SJSSetingUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJSSetingUpViewController.h; sourceTree = "<group>"; };
+		9296119722ABE8200045DCA0 /* SJSSetingUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJSSetingUpViewController.m; sourceTree = "<group>"; };
+		9296119822ABE8200045DCA0 /* SJSSetingUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SJSSetingUpViewController.xib; sourceTree = "<group>"; };
+		9296119B22ABE83E0045DCA0 /* SJSCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJSCallViewController.h; sourceTree = "<group>"; };
+		9296119C22ABE83E0045DCA0 /* SJSCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJSCallViewController.m; sourceTree = "<group>"; };
+		9296119D22ABE83E0045DCA0 /* SJSCallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SJSCallViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,12 @@
 				9296117E22ABE5360045DCA0 /* AppDelegate.m */,
 				9296118022ABE5360045DCA0 /* ViewController.h */,
 				9296118122ABE5360045DCA0 /* ViewController.m */,
+				9296119622ABE8200045DCA0 /* SJSSetingUpViewController.h */,
+				9296119722ABE8200045DCA0 /* SJSSetingUpViewController.m */,
+				9296119822ABE8200045DCA0 /* SJSSetingUpViewController.xib */,
+				9296119B22ABE83E0045DCA0 /* SJSCallViewController.h */,
+				9296119C22ABE83E0045DCA0 /* SJSCallViewController.m */,
+				9296119D22ABE83E0045DCA0 /* SJSCallViewController.xib */,
 				9296118322ABE5360045DCA0 /* Main.storyboard */,
 				9296118922ABE5370045DCA0 /* Assets.xcassets */,
 				9296118B22ABE5370045DCA0 /* LaunchScreen.storyboard */,
@@ -100,6 +116,7 @@
 		9296117222ABE5360045DCA0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SJS;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Sunday4;
 				TargetAttributes = {
@@ -131,6 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9296119A22ABE8200045DCA0 /* SJSSetingUpViewController.xib in Resources */,
+				9296119F22ABE83E0045DCA0 /* SJSCallViewController.xib in Resources */,
 				9296118D22ABE5370045DCA0 /* LaunchScreen.storyboard in Resources */,
 				9296118A22ABE5370045DCA0 /* Assets.xcassets in Resources */,
 				9296118522ABE5360045DCA0 /* Main.storyboard in Resources */,
@@ -145,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9296118222ABE5360045DCA0 /* ViewController.m in Sources */,
+				9296119E22ABE83E0045DCA0 /* SJSCallViewController.m in Sources */,
+				9296119922ABE8200045DCA0 /* SJSSetingUpViewController.m in Sources */,
 				9296117F22ABE5360045DCA0 /* AppDelegate.m in Sources */,
 				9296119022ABE5370045DCA0 /* main.m in Sources */,
 				9296118822ABE5360045DCA0 /* anyCall.xcdatamodeld in Sources */,
